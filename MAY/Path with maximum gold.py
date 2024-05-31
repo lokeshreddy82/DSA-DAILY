@@ -1,5 +1,5 @@
 class Solution:
-    def ischeck(self,row:int,col:int):
+    def ischeck(self,row:int,col:int)->bool:
         if row<self.m and row>=0 and col>=0 and  self.n>col:
             return True
         return False
